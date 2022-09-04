@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: bogdanovmw/testexercise-postgres
+    container_name: testexercise-postgres
+    restart: always
+    build:
+      context: /services/postgres
+      dockerfile: Dockerfile.development
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=testexercise
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - "db-data:/var/lib/postgresql/data"
+
+  app:
+    build:
+      context: /services/app
+      dockerfile: Dockerfile.development
+    restart: always
+    links:
+      - postgres
+    environment:
+      - PORT=8080
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres/testexercise
+      - JS_URL=http://localhost
+    image: bogdanovmw/testexercise-application
+    container_name: testexercise-application
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+
+volumes:
+  db-data:
