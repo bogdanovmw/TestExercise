@@ -20,7 +20,7 @@
 В таблице есть 3 пользователя:
 - {name: "user1", password: "password1"}
 - {name: "user2", password: "password2"}
-- {name: "user3", password: "password3"}  
+- {name: "user3", password: "password3"}    
 Посмотреть список всех пользователей и сообщений можно по запросу: **curl http://localhost:8080/api/user**  
   
 ### Curl запросы:  
