@@ -28,7 +28,7 @@
 **(Проверены только в Windows 11)**  
 **Срок жизни JWT ключа 3 минуты**  
 ### Запрос на авторизацию пользователя
-curl -X POST http://localhost:8080/api/user -H "Content-Type: application/json" -d "{\"name\":\"user1\", \"password\":\"password1\"}"
+curl -X POST http://localhost:8080/api/user -H "Content-Type: application/json" -d "{\ "name\ ":\ "user1\ ", \ "password\ ":\ "password1\ "}"
 - name - имя пользователя
 - password - пароль пользователя
 ### Запрос на сохранение сообщения
