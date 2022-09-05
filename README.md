@@ -16,6 +16,7 @@
 4. Запустить start.bat
 5. Проект запущен по [адресу](http://localhost:8080/)  
   
+### Данные в таблице:  
 В таблице есть 3 пользователя:
 - {name: "user1", password: "password1"}
 - {name: "user2", password: "password2"}
