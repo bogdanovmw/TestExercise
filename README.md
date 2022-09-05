@@ -11,7 +11,7 @@
 
 ## Установка и запуск программы  
 1. В операционной системе должен быть установлен и запущен Docker
-2. Необходимо скачать и разархивировать архив [по ссылке]([http://sabaka.net](https://drive.google.com/file/d/10W2DncYEag8jJ8vLV-myQnObAtFhE63d/view?usp=sharing))  
+2. Необходимо скачать и разархивировать архив [по ссылке](http://sabaka.net](https://drive.google.com/file/d/10W2DncYEag8jJ8vLV-myQnObAtFhE63d/view?usp=sharing)  
 3. Перейти в разархивированную папку DockerExercise 
 4. Запустить start.bat
 5. Проект запущен по [адресу](http://localhost:8080/)  
