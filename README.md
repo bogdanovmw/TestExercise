@@ -1,9 +1,9 @@
 # Тестовое задание для Инсайд
 Технологии: 
 - Java 8
-- Spring Boot 2.7.3 
-- - (org.springframework.boot:spring-boot-starter-web:2.7.3)
-- - org.springframework.boot:spring-boot-starter-data-jpa:2.7.3
+- Spring Boot 2.7.3
+  - (org.springframework.boot:spring-boot-starter-web:2.7.3)
+  - org.springframework.boot:spring-boot-starter-data-jpa:2.7.3
 - Liquibase org.liquibase:liquibase-core:4.9.1
 - Jjwt (io.jsonwebtoken:jjwt:0.9.1)
 - Postgresql (org.postgresql:postgresql:42.3.6)
