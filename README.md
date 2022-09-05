@@ -1,6 +1,6 @@
 # Тестовое задание для Инсайд
 
-Dependency: 
+Технологии: 
 - Spring Boot (WEB, JPA)
 - Liquibase
 - Jjwt
@@ -26,10 +26,10 @@ curl -X POST http://localhost:8080/api/user -H "Content-Type: application/json" 
 ### Запрос на сохранение сообщения
 curl -X POST http://localhost:8080/api/message -H "Content-Type: application/json" -H "Authorization:Bearer_" -d "{\"name\":\"user1\", \"message\":\"Hello World!\"}"
 - name - имя пользователя
-- message - сообщение пользователя
+- message - сообщение пользователя  
 Для выполнения запроса необходимо в -H "Authorization:Bearer_", после _ вставить jwt токен, полученный из запроса выше  
 ### Запрос на получение 10 последних сообщений из БД
 curl -X POST http://localhost:8080/api/message -H "Content-Type: application/json" -H "Authorization:Bearer_" -d "{\"name\":\"user1\", \"message\":\"history 10\"}"
-- name - имя пользователя
-- Для работы запроса поле message должно быть неизменным  
+- name - имя пользователя  
+Для работы запроса поле message должно быть неизменным  
 Для выполнения запроса необходимо в -H "Authorization:Bearer_", после _ вставить jwt токен, полученный из запроса выше  
