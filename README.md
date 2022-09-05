@@ -16,8 +16,12 @@
 2. Необходимо скачать и разархивировать архив [по ссылке](https://drive.google.com/file/d/10W2DncYEag8jJ8vLV-myQnObAtFhE63d/view?usp=sharing)  
 3. Перейти в разархивированную папку DockerExercise 
 4. Запустить start.bat
-5. Проект запущен по http://localhost:8080/
+5. Проект запущен по http://localhost:8080/  
   
+Ссылки на Docker Hub
+- [Ссылка на postgres Image](https://hub.docker.com/repository/docker/bogdanovmw/testexercise-postgres)
+- [Ссылка на application Image](https://hub.docker.com/repository/docker/bogdanovmw/testexercise-application)  
+
 ## Данные в таблице:  
 В таблице есть 3 пользователя:
 - {name: "user1", password: "password1"}
