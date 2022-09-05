@@ -1,13 +1,16 @@
 # Тестовое задание для Инсайд
 
 Технологии: 
-- Spring Boot (WEB, JPA)
-- Liquibase
-- Jjwt
-- Postgresql
-- Lombok
-- Junit 5 
-- Mockito
+- Java 8
+- Spring Boot 2.7.3 
+>> - (org.springframework.boot:spring-boot-starter-web:2.7.3)
+>> org.springframework.boot:spring-boot-starter-data-jpa:2.7.3
+- Liquibase org.liquibase:liquibase-core:4.9.1
+- Jjwt (io.jsonwebtoken:jjwt:0.9.1)
+- Postgresql (org.postgresql:postgresql:42.3.6)
+- Lombok (org.projectlombok:lombok:1.18.24)
+- Junit 5 (org.junit.jupiter:junit-jupiter:5.8.2)
+- Mockito (org.mockito:mockito-junit-jupiter:4.5.1)
 
 ## Установка и запуск программы  
 1. В операционной системе должен быть установлен и запущен Docker
