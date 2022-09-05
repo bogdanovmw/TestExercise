@@ -9,16 +9,17 @@
 - Junit 5 
 - Mockito
 
-Срок жизни ключа 3 минуты
+
 
 В таблице есть 3 пользователя:
 - {name: "user1", password: "password1"}
 - {name: "user2", password: "password2"}
 - {name: "user3", password: "password3"}  
-Посмотреть список всех пользователей и сообщений можно по запросу: curl http://localhost:8080/api/users
+Посмотреть список всех пользователей и сообщений можно по запросу: curl http://localhost:8080/api/user
 
 ### Curl запросы:  
-(Проверены только в Windows 11)  
+**(Проверены только в Windows 11)**  
+**Срок JWT жизни ключа 3 минуты**  
 ### Запрос на авторизацию пользователя
 curl -X POST http://localhost:8080/api/user -H "Content-Type: application/json" -d "{\"name\":\"user1\", \"password\":\"password1\"}"
 - name - имя пользователя
